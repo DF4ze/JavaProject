@@ -5,7 +5,7 @@ import fenetres.FenetreChoix;
 public class Lanceur {
 	public static void main(String[] args) {
 		
-		new FenetreChoix("Choisir...");
+		new FenetreChoix("Fenetre de choix...");
 
 	}
 
