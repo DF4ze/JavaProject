@@ -7,6 +7,7 @@ public class Lanceur {
 		
 		new FenetreChoix("Fenetre de choix...");
 
+		// ca chie...
 	}
 
 }
