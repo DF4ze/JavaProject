@@ -7,6 +7,8 @@ public class Lanceur {
 		
 		new ClasseQuiSertARienMaster();
 		
+		new ClassQuiSertARienBranche();
+		
 		String sText = "Choisir...Un choix...";
 		if( args.length != 0 ){
 			sText = args[0];
