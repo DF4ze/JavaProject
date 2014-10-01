@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 public class WindowsCloser implements WindowListener {
 
-	
+	 
 	public static int closeMsg(){
 		Object[] options = { "Oui...! j'veux sortir!!!", "Non mais non !!" };
 		int n = JOptionPane
