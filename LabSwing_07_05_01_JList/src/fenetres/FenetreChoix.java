@@ -1,17 +1,20 @@
 package fenetres;
 
 import java.awt.Dimension;
-import java.awt.GraphicsConfiguration;
 import java.awt.HeadlessException;
 
 import javax.swing.JFrame;
 
 import principal.WindowsCloser;
-
 import fenetres.panels.ChoixPanel;
 
 public class FenetreChoix extends JFrame {
 
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public FenetreChoix(String title) throws HeadlessException {
 		super(title);
