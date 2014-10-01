@@ -1,7 +1,5 @@
 package principal;
 
-import javax.swing.JButton;
-
 import fenetres.FenetreChoix;
 
 public class Lanceur {
