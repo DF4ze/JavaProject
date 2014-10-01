@@ -12,7 +12,7 @@ public class Lanceur {
 		}else
 			new FenetreChoix("Fenetre de choix...");
 
-		// ca chie...
+		// ca chie...plus
 	}
 
 }
