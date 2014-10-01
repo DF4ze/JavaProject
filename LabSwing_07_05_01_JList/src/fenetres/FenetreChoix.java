@@ -8,13 +8,9 @@ import javax.swing.JFrame;
 import principal.WindowsCloser;
 import fenetres.panels.ChoixPanel;
 
-@SuppressWarnings("serial")
 public class FenetreChoix extends JFrame {
 
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public FenetreChoix(String title) throws HeadlessException {
