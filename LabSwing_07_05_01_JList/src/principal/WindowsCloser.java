@@ -4,25 +4,14 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 
 
 public class WindowsCloser implements WindowListener {
 
 	 
 	public static int closeMsg(){
-		Object[] options = { "Oui...! j'veux sortir!!!", "Non mais non !!" };
-		int n = JOptionPane
-				.showOptionDialog(
-						null,
-						"Etes-vous vraiiiiiment sur de vouloir quitter cette application de rêve?!",
-						"Question Bête...", 
-						JOptionPane.YES_NO_OPTION,
-						JOptionPane.QUESTION_MESSAGE, 
-						null,
-						options,
-						options[1]);
-		return n;
+		GetOut gt = new GetOut();
+		return gt.getiRaiponce();
 	}
 	
 	public WindowsCloser() {
