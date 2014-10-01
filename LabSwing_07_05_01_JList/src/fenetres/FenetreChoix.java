@@ -1,14 +1,15 @@
 package fenetres;
 
 import java.awt.Dimension;
+import java.awt.GraphicsConfiguration;
 import java.awt.HeadlessException;
 
 import javax.swing.JFrame;
 
 import principal.WindowsCloser;
+
 import fenetres.panels.ChoixPanel;
 
-@SuppressWarnings("serial")
 public class FenetreChoix extends JFrame {
 
 
